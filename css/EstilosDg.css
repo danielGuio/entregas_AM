@@ -1,0 +1,501 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 0 auto;
+    max-width: 2500px;
+    position: relative;
+}
+
+/* Inicio de estilos header--------------------- */
+.header-dg{
+    width: 96%;
+    height: 90px;
+    padding: 1% 2% 1% 2%;
+    background-color: #2F4F4F;
+    font-family: sans-serif, arial;
+    font-size: 1em;
+    margin: 0 0 5% 0;
+    position: relative;
+    position: fixed;
+}
+
+.header_logo{
+    width: 49%;
+    display: inline-block;
+    height: 90px;
+    float: left;
+}
+
+.header_logo img{
+    width: 25%;
+    height: auto;
+    margin-left: 15%;
+    max-width: 250px;
+    min-width: 120px;
+}
+
+.dGbutton{
+    display: inline-block;
+    text-align: center;
+    font-family: sans-serif, arial;
+    font-size: 1em;
+    margin-right: 8%;
+}
+
+.header_usuario{
+    width: 50%;
+    display: inline-block;
+    height: 90px;
+    float: right;
+}
+
+.header_usuario-texto{
+    display: inline-block;
+    width: 82%;
+    float: left;
+}
+
+.header_usuario_logo{
+    display: inline-block;
+    width: 15%;
+    height: auto;
+    margin: 3% 0 0 0;
+}
+
+.header_usuario img{
+    width: 50%;
+    max-width: 50px;
+    min-width: 35px;
+    height: auto;
+    display: inline-block;
+    margin: 4% 15% 4% 0;
+}
+
+.header_usuario p{
+    width: 95%;
+    height: auto;
+    color: black;
+    display: inline-block;
+    margin: 7% 0 0% 5%;
+    text-align: right;
+    color: #ffffff;
+    font-family: sans-serif, arial;
+    font-size: 1.2rem;
+    font-style: italic;
+    letter-spacing: 0.2em;
+}
+
+.header_usuario a{
+    font-family: sans-serif, arial;
+    font-size: 1.2em;
+    color: #27B2D4;
+    float: right;
+}
+
+/* Fin de estilos header--------------------- */
+
+/* Inicio de estilos menuempleado  --------------------- */
+
+.container-contbody{
+    background: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 150px;
+}
+
+.cont-opciones{
+    width: 250px;
+    height: 80px;
+    padding: 2%;
+    margin: 2.5%;
+    background: #27D49F;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+}
+
+.cont-opciones img{
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    right: 125px;
+}
+.cont-opciones .img-mapa{
+    width: 90px;
+    height: auto;
+    right: 95px;
+}
+
+.cont-opciones .img-guia{
+    width: 110px;
+    height: auto;
+    right: 95px;
+    border-radius: 5px;
+}
+
+.cont-opciones:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0 , 0 , 0 , 4);
+    transition: 0.3s;
+}
+
+.list-cont-opciones{
+    display: none;
+}
+
+.list-cont-opciones_activo{
+    display: block;
+    position: absolute;
+    float: top;
+    list-style: none;
+    background: #013E5F;
+    width: 75%;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0px rgba(0 , 0 , 0 , 4);
+    margin: 0 auto;
+}
+
+.list-cont-opciones_activo li{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.list-cont-opciones_activo li a{
+    color: #B1E1FB;
+    text-decoration: none;
+    font-family: sans-serif, arial;
+    font-size: 1.1em;
+}
+
+.list-cont-opciones_activo li:hover{
+    background: #0070AB;
+    color: #B8FAE6;
+}
+
+/* Fin de estilos menuempleado  --------------------- */
+
+/*Inicio de estilos formularios  ------------------------*/
+
+.div-form-dg{
+    margin: 0 auto;
+    width: 80%;
+    background: #FFF6F9;
+    border: solid #FEDDE9;
+}
+
+.div-form-dg h1{
+    text-align: center;
+    font-family: sans-serif, arial;
+    font-size: 2em;
+    padding-top: 2%;
+    color: #C92800;
+}
+
+.div-form-dg h2{
+    text-align: left;
+    font-family: sans-serif, arial;
+    font-size: 1.4em;
+    padding-top: 2%;
+    color: #C92800;
+    margin-left: 4%;
+}
+
+.div-form-dg p{
+    text-align: justify;
+    font-family: sans-serif, arial;
+    font-size: 1.2em;
+    margin: 3%;
+    color: #000000;
+}
+
+.div-form-dg .mens-error{
+    background-color: #900C3F ;
+    color: #FFFAF4;
+    text-align: center;
+    border-radius: 2px;
+    display: none;
+}
+
+.form-dg-column{
+    width: 85%;
+    margin: 1% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.form-dg label{
+    display: block;
+    font-weight: 500;
+    font-family: sans-serif, arial;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.form-dg label.label-radiobtn{
+    margin-left: 40%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.form_grupo_input{
+    position: relative;
+}
+
+.formulario-input{
+    width: 80%;
+    background: #FFFDFE;
+    border: 1px solid #C92800;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+}
+
+.formulario-input-deshabilitado{
+    background: #E7E9EC;
+    border-color: #E7E9EC;
+}
+
+.label-deshabilitado{
+    color: #747476;
+}
+
+.formulario-input:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 0.4)
+}
+
+.grupo-btn{
+    display: block;
+    width: 80%;
+    margin: 3% auto;
+}
+
+.grupo-btn input{
+    width: 30%;
+    height: 40px;
+    color: white;
+    border: none;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.grupo-btn .btn-registrar{
+    background: #21C837;
+    display: block;
+}
+
+.grupo-btn .btn-buscar{
+    background: #0680CB;
+    margin: 0 33%;
+    display: none;
+}
+
+.grupo-btn .btn-editar{
+    background: #66B206;
+    margin: 0 33%;
+}
+
+.grupo-btn a{
+    display: block;
+    font: italic 1em sans-serif, arial;
+    margin: 5% auto 1% auto;
+    text-align: center;
+    width: 35%;
+    color: #008CC9;
+    text-decoration: none;
+    border-bottom: solid #008CC9 2px;
+}
+
+#RadioBuscCliRemDoc{
+    text-align: center;
+    color: red;
+    background: blue;
+}
+
+.form-dg fieldset label{
+    color: black;
+    font-family: sans-serif, arial;
+    font-size: 1.1em;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.form-dg fieldset{
+    margin: 3%;
+    display: none;
+
+}
+
+.form-dg fieldset input{
+    display: inline-block;
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 18%;
+    margin-bottom: 5%;
+}
+
+/* Fin de estilos formularios  --------------------- */
+
+/*Inicio de estilos tablas  ------------------------*/
+
+.container-tabla{
+    overflow-x: auto;
+    margin: 5% auto;
+    width: 98%;
+    display: none;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: sans-serif, arial;
+    font-size: 0.95em;
+}
+
+.btnEditCliRem{
+    width: auto;
+    height: auto;
+    padding: 8px;
+    background-color: #66B206;
+    font-family: sans-serif, arial;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 1px;
+}
+
+.tabla{
+    width: 100%;
+    white-space: normal;
+    border-radius: 5px;
+}
+
+.tabla th{
+    padding: 10px 5px;
+    background-color: #A7C3FA;
+    color: #010D26;
+}
+
+.tabla td{
+    background-color: #D7E1F6;
+    text-align: center;
+}
+
+.tablabuscEditcli{
+    /* display: none;*/
+}
+
+.editarclirem{
+    display: none;
+}
+
+/* Fin de estilos tabla  --------------------- */
+
+/*Inicio de estilos msj error  ------------------------*/
+
+.grupo_input .mens-error_form{
+    color: red;
+    font-size: 0.8em;
+    display: none;
+}
+
+.autocompletar .mens-error_form{
+    color: red;
+    font-size: 0.8em;
+    display: none;
+}
+
+
+
+/*Inicio de estilos campo autocompletat  ------------------------*/
+
+.autocompletar{
+    position: relative;
+    display: inline-block;
+}
+
+strong{
+    color: black;
+}
+
+#ubicasionclirem{
+    padding: 10px 25px;
+
+}
+
+.lista-autocompletar-item{
+    color: #C92800;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    z-index: 100;
+
+    top: 100%;
+    left: 1px;
+    width: 77%;
+}
+
+.lista-autocompletar-item div{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #FFFDFE;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.lista-autocompletar-item div:hover{
+    background-color: dodgerblue;
+}
+
+.autocompletar-active{
+    background-color: dodgerblue !important;
+    color: #a1caff;
+}
+
+.autocompletar-active strong{
+    color: white;
+}
+
+.modal{
+    background-color: #ffffff;
+    width: 500px;
+    height: 200px;
+    border: solid black;
+    border-radius: 5px;
+    top: 20%;
+    right: calc(50% - 250px);
+    position: absolute;
+    display: inherit;
+    z-index: 50;
+
+}
+
+/*fin de estilos campo autocompletar  ------------------------*/
+
+
+.mens-error{
+    background: red;
+    text-align: center;
+    font-family: sans-serif, arial;
+    font-size: 1em;
+    color: white;
+    font-style: italic;
+}
+

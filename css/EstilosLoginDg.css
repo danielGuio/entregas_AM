@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 0 auto;
+    max-width: 2500px;
+}
+
+/* Inicio de estilos login */
+.container-login{
+    width: 35%;
+    height: auto;
+    margin: 1% auto;
+    background-color: #052442;
+    border-radius: 20px;
+}
+
+.cont-imagenlogo{
+    width: 70%;
+    height: auto;
+    background-color: #052442;
+    margin: 3% auto;
+    border-bottom: solid #DFECF9; 
+}
+
+.cont-imagenlogo img{
+    width: 50%;
+    height: auto;
+    margin: 2% 25%;
+}
+
+.container-login #imagenlogin{
+    width: 25%;
+    margin: 0 37%;
+    height: auto;
+}
+.container-login h2{
+    text-align: center;
+    color: #DFECF9;
+    margin: 0 auto;
+}
+
+.Container-form{
+    font-size: 1.2em;
+    font-family: sans-serif, arial;
+}
+
+.group-label-input{
+    display: block;
+    margin: 5% auto;
+    width: 80%;
+    height: auto;
+}
+
+.label-form{
+    display: inline-block;
+}
+
+.input-form{
+    display: inline-block;
+    width: 75%;
+    height: 40px;
+    border: none;
+    margin: 0 16%;
+    background-color: #052442;
+    border-bottom: solid #DFECF9;
+    color: #DFECF9;
+    font-family: sans-serif, arial;
+}
+.input-form::placeholder {
+    color: #DFECF9;
+    font-size: 1.2em;
+    font-family: sans-serif, arial;
+    opacity: 0.5;
+}
+
+.btn_form{
+    font-family: sans-serif, arial;
+    font-size: 1em;
+    width: 45%;
+    height: auto;
+    margin: 8% 27% 13% 27%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #357505;
+    border: none;
+    color: #DFECF9;
+}
+
+.error-login {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    font-family: sans-serif, arial;
+    font-size: 1em;
+    background-color: #9D1805;
+    color: #DFECF9;
+    padding: 2%;
+    margin: 1% auto;
+    border-radius: 3px;
+    display: none;
+}
+
+.error-loginactive {
+    display: block;
+}
+
+/* fin de estilos login */
